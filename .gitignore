@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+
+# Local environment
+local.properties
+
+# Log files
+*.log
+
+# Built application files
+*.apk
+*.aab
+
+# Kotlin
+.kotlin/
+
+# Mac
+.DS_Store

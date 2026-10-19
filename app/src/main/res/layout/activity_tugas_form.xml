@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/judul_tugas"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/deskripsi"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnTenggat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tenggat" />
+
+        <Button
+            android:id="@+id/btnHapusTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hapus_tanggal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTenggat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <CheckBox
+        android:id="@+id/cbMendesak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mendesak"
+        android:layout_marginTop="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbPenting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/penting" />
+
+    <EditText
+        android:id="@+id/etTujuanHarada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tujuan_harada"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selesai"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtugas"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/llSubtugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnTambahSubtugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah_subtugas"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/simpan" />
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hapus"
+            android:visibility="gone"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

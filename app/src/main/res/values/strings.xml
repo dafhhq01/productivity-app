@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Productivity</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tugas">Tugas</string>
+    <string name="nav_transaksi">Keuangan</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_investasi">Investasi</string>
+
+    <!-- Common -->
+    <string name="simpan">Simpan</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="belum_ada_tugas">Belum ada tugas</string>
+
+    <!-- Dashboard -->
+    <string name="tugas_belum_selesai">Tugas Belum Selesai</string>
+    <string name="pemasukan_bulan_ini">Pemasukan Bulan Ini</string>
+    <string name="pengeluaran_bulan_ini">Pengeluaran Bulan Ini</string>
+    <string name="total_investasi">Total Investasi</string>
+
+    <!-- Tugas -->
+    <string name="tambah_tugas">Tambah Tugas</string>
+    <string name="edit_tugas">Edit Tugas</string>
+    <string name="judul_tugas">Judul Tugas</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="tenggat">Tenggat</string>
+    <string name="mendesak">Mendesak</string>
+    <string name="penting">Penting</string>
+    <string name="tujuan_harada">Tujuan Harada</string>
+    <string name="selesai">Selesai</string>
+    <string name="subtugas">Subtugas</string>
+    <string name="tambah_subtugas">+ Subtugas</string>
+    <string name="hapus_tanggal">Hapus tanggal</string>
+    <string name="validasi_judul_wajib">Judul tugas wajib diisi</string>
+    <string name="konfirmasi_hapus_tugas">Hapus tugas ini?</string>
+
+    <!-- Transaksi -->
+    <string name="tambah_transaksi">Tambah Transaksi</string>
+    <string name="edit_transaksi">Edit Transaksi</string>
+    <string name="jenis">Jenis</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="kategori">Kategori</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="catatan">Catatan</string>
+    <string name="validasi_jumlah">Jumlah harus lebih dari 0</string>
+    <string name="validasi_jumlah_max">Jumlah maksimal 999999999999</string>
+    <string name="konfirmasi_hapus_transaksi">Hapus transaksi ini?</string>
+
+    <!-- Budget -->
+    <string name="tambah_budget">Tambah Budget</string>
+    <string name="edit_budget">Edit Budget</string>
+    <string name="terpakai">Terpakai</string>
+    <string name="sisa">Sisa</string>
+    <string name="tahun">Tahun</string>
+    <string name="bulan">Bulan</string>
+    <string name="budget_duplikat">Budget kategori ini sudah ada di bulan tersebut</string>
+    <string name="konfirmasi_hapus_budget">Hapus budget ini?</string>
+
+    <!-- Investasi -->
+    <string name="tambah_investasi">Tambah Investasi</string>
+    <string name="edit_investasi">Edit Investasi</string>
+    <string name="nama">Nama</string>
+    <string name="nama_investasi">Nama Investasi</string>
+    <string name="modal">Modal</string>
+    <string name="bunga">Bunga (%)</string>
+    <string name="bunga_tahunan">Bunga Tahunan (%)</string>
+    <string name="tanggal_mulai">Tanggal Mulai</string>
+    <string name="nilai_sekarang">Nilai Sekarang</string>
+    <string name="keuntungan">Keuntungan</string>
+    <string name="total_modal">Total Modal</string>
+    <string name="total_nilai">Total Nilai</string>
+    <string name="validasi_tanggal_masa_depan">Tanggal mulai tidak boleh di masa depan</string>
+    <string name="konfirmasi_hapus_investasi">Hapus investasi ini?</string>
+</resources>
